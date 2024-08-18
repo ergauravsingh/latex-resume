@@ -1,0 +1,211 @@
+%-------------------------
+% Resume in Latex
+% Author : Gaurav Singh
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Gaurav Singh} \\ \vspace{1pt}
+    \small 7905561143 $|$ 
+    \href{mailto:gauravsinghlko123@gmail.com}{\underline{gauravsinghlko123@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/er-gaurav-singh}{\underline{LinkedIn}} $|$
+    \href{https://github.com/ergauravsingh}{\underline{Github}}
+\end{center}
+
+
+%-----------PROFILE-----------
+\section{Profile}
+    {Experienced Full Stack Developer with 3+ years of expertise in developing and managing web applications using Vue.js, Spring Boot, and AWS Cloud. Proficient in DevOps practices including GitHub Actions. Adept at leveraging Generative AI for client solutions. Proven track record of working with major energy and utility client, delivering high-quality customer-facing applications, and leading development teams.}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cognizant Technology Solutions}{Sep 2021 -- Present}
+      {Full Stack Developer}{}
+      \resumeItemListStart
+        \resumeItem{Worked on multiple customer-facing applications for the leading electricity provider of United States.}
+        \resumeItem{Led a team of developers in delivering high-quality software solutions achieving 10/10 Customer Satisfaction (CSAT) score.}
+        \resumeItem{Collaborated with stakeholders to gather and analyze requirements.}
+        \resumeItem{Developed and maintained web applications using Vue.js, Spring Boot, and AWS Cloud.}
+        \resumeItem{Implemented DevOps practices including CI/CD pipelines with GitHub Actions.}
+        \resumeItem{Utilized Generative AI to enhance client solutions.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Cognizant Technology Solutions}{Jan. 2021 -- June 2021}
+      {Full Stack Developer Intern}{}
+      \resumeItemListStart
+        \resumeItem{Gained hands-on experience with full stack development.}
+        \resumeItem{Assisted in the development of web applications using Java technologies.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Account Management} $|$ \emph{Vue 3, Spring Boot, AWS}}{Jan 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{This application enables the customers of America's leading energy provider company to manage their electricity account settings.}
+            \resumeItem{Customers can perform various account level operations such as adding an account to their energy profile, updating user id, password, email, mailing address, phone etc.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Energy Manager} $|$ \emph{Vue 3, Spring Boot, AWS}}{Sep 2021 -- Dec 2023}
+          \resumeItemListStart
+            \resumeItem{A multi-million dollar application which enables commercial and residential customers of America's leading energy provider company to analyze and manage their energy profile}
+            \resumeItem{Its a dual region application which seamlessly switches between two territories and also has role based access with 3 different user experiences.}
+            \resumeItem{It also has a walkme experience build using GSAP animation library to guide customers during initial login.}
+            \resumeItem{Customers can login and see their energy usage and disaggregation of their consumption. They can also give a detailed survey describing their premise energy usage and they get dynamic recommendations based their usage.}
+            \resumeItem{Company's agents can also login to the application and generate a detailed PDF report of energy consumption for their customers. This report is generated on the fly using AWS lambda.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr. A.P.J. Abdul Kalam Technical University}{Lucknow, Uttar Pradesh}
+      {B. Tech, Computer Science \& Engineering $|$ CGPA: 8.4}{July. 2017 -- July 2021}
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH-----------
+\section{Research}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Journal of Emerging Technologies and Innovative Research}{}
+      {HeartCare - A Heart Disease Prediction System based on Machine Learning $|$ \href{http://www.jetir.org/papers/JETIR2106772.pdf}
+      {\underline{JETIR2106772}} 
+    }{June 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages: }{Java, JavaScript, SQL (Postgres), Python} \\
+     \textbf{Frameworks: }{Vue.js, Spring Boot, React, Quasar}\\
+     \textbf{Cloud Platforms: }{AWS} \\
+     \textbf{Development Tools: }{GitHub Actions, GitHub Copilot, Splunk, Docker}\\
+     \textbf{Soft Skills: }{Team Leadership, Stakeholder Management, Requirement Analysis}\\
+    }}
+ \end{itemize}
+
+
+%-----------LANGUAGES-----------
+% \section{Languages}
+%     \resumeItemListStart
+%         \resumeItem{English}
+%         \resumeItem{Hindi}
+%     \resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
